@@ -1,0 +1,10 @@
+# cmake needs this line
+cmake_minimum_required(VERSION 2.8)
+
+# Define project name
+project(AI_PI_project)
+
+set (CMAKE_PREFIX_PATH "/usr/local/lib/cmake")
+# Declare the executable target built from your sources
+add_executable(samplePro_raspiCam samplePro.cpp)
+
